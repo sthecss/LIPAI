@@ -1,2 +1,2 @@
 # LIPAI
-Testes, anotaaações e percepções do Onboarding.
+Testes, anotações e percepções do Onboarding.
