@@ -39,7 +39,7 @@ Pergunta: As funções do ex03 e ex04 permitem enviar um número variável de pa
 Resposta: Aqui é uma questão de Origem do Dado vs. Experiência do Desenvolvedor (DX).
 
 Eu uso Tuplas/Listas (Coleção Única) quando o dado já existe estruturado no meu sistema.
-    > Cenário: O dado veio de uma query SQL ou de um arquivo CSV. Não faz sentido eu desempacotar uma lista de 100 itens só para passar para a função. Passo a lista inteira e pronto. É mais performático.
+    > Cenário: O dado veio de uma query SQL ou de um arquivo CSV. Não faz sentido eu desempacotar uma lista de 100 itens só para passar para a função. Passo a lista inteira e pronto.
 
 Eu uso `args` (Espelhamento) quando estou criando bibliotecas ou utilitários.
-    > Cenário: Quero oferecer uma sintaxe limpa para quem vai usar meu código. É muito mais intuitivo escrever `somar(10, 20, 30)` do que obrigar o desenvolvedor a criar uma lista auxiliar `somar([10, 20, 30])` só para satisfazer a função. O `args` deixa a chamada mais elegante e "Pythonica".
+    > Cenário: Quero oferecer uma sintaxe limpa para quem vai usar meu código. É muito mais intuitivo escrever `somar(10, 20, 30)` do que obrigar o desenvolvedor a criar uma lista auxiliar `somar([10, 20, 30])` só para satisfazer a função. O `args` deixa a chamada mais elegante.
