@@ -1,4 +1,4 @@
-""" Aula 02.03 - Estrutura de Repetição (Loop For) """
+""" Aula 03 - Estrutura de Repetição (Loop For) """
 
 # Usos principais:
 # 1. Iteração em coleção de elementos (listas, strings, etc)

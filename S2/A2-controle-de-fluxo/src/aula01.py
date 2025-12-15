@@ -1,4 +1,4 @@
-""" Aula 02.01 - Operadores em Python """
+""" Aula 01 - Operadores em Python """
 
 # --- 1. Operadores Aritméticos ---
 n1 = 10.2

@@ -1,4 +1,4 @@
-""" Aula 02.02 - Instrução if (Condicionais) """
+""" Aula 02 - Instrução if (Condicionais) """
 
 # Estrutura básica:
 # if condicao:

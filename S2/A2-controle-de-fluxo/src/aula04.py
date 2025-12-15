@@ -1,4 +1,4 @@
-""" Aula 02.04 - Estrutura de Repetição (Loop While) """
+""" Aula 04 - Estrutura de Repetição (Loop While) """
 
 # while condicao:
 #     instrução

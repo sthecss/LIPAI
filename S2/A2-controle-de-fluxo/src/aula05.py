@@ -1,4 +1,4 @@
-""" Aula 02.05 - Comandos de Controle (Break e Continue) """
+""" Aula 05 - Comandos de Controle (Break e Continue) """
 
 # Break: Interrompe o loop imediatamente
 
