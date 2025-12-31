@@ -40,6 +40,7 @@ paciente = {
     'peso': 78.5
 }
 
+breakpoint()
 imc_calculado = calcular_imc(paciente)
 classificacao = obter_classificacao(imc_calculado)
 situacao = obter_situacao(imc_calculado)

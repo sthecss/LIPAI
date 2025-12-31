@@ -33,6 +33,7 @@ try:
     dados_aquario["temp_desejada"] = float(input("Temp. Desejada (°C): "))
     dados_aquario["temp_ambiente"] = float(input("Temp. Ambiente (°C): "))
 
+    breakpoint()
     # --- Processamento ---
     vol = calcular_volume(dados_aquario)
     pot = calcular_potencia_termostato(dados_aquario)

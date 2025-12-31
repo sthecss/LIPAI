@@ -9,5 +9,6 @@ def somar_args(*args):
     return sum(args)
 
 
+breakpoint()
 resultado = somar_args(5, 6, 7, 8)
 print(f"Soma dos args: {resultado}")

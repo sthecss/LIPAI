@@ -10,5 +10,6 @@ def somar(n1: float, n2: float, n3: float) -> float:
 
 
 # Chamada
+breakpoint()
 resultado = somar(5, 7, 6)
 print(f"O resultado retornado foi: {resultado}")
