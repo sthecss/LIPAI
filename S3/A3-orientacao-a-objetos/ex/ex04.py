@@ -177,14 +177,16 @@ class Participacao:
         return f'Participacao[codigo={self.codigo}, data inicio={self.data_inicio}, data fim={self.data_fim}, aluno={self.aluno}, projeto={self.projeto}]'
 
 
-aluno1          = Aluno('SP0101', 'João da Silva', 'joao@email.com')
-aluno2          = Aluno('SP0102', 'Maria da Silva', 'maria@email.com')
+aluno1 = Aluno('SP0101', 'João da Silva', 'joao@email.com')
+aluno2 = Aluno('SP0102', 'Maria da Silva', 'maria@email.com')
 
-projeto1        = Projeto( 1, 'Laboratório de Desenvolvimento de Software', 'Pedro Gomes')
-projeto2        = Projeto( 2, 'Laboratório de Desenvolvimento de Software', 'João Augusto')
+projeto1 = Projeto(
+    1, 'Laboratório de Desenvolvimento de Software', 'Pedro Gomes')
+projeto2 = Projeto(
+    2, 'Laboratório de Desenvolvimento de Software', 'João Augusto')
 
-participacao1    = Participacao(1, '05/06', '14/11', aluno1,  projeto2)
-participacao2   = Participacao(2, '20/06', '20/12', aluno2, projeto2)
+participacao1 = Participacao(1, '05/06', '14/11', aluno1,  projeto2)
+participacao2 = Participacao(2, '20/06', '20/12', aluno2, projeto2)
 
 projeto1.add_participacao(participacao1)
 projeto1.add_participacao(participacao2)
