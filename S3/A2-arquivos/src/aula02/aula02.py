@@ -6,7 +6,7 @@
 
 # # -----------------------------------------------
 
-# arq = open('S3/A2-arquivos/src/aula02/arquivo.txt', 'w')
+# arq = open('S3/A2-cnn-leitura-arquivos/src/aula02/arquivo.txt', 'w')
 
 # string = 'Olá Teté, tudo bem?\n'           # uso de: arq.write()
 # lista = ['Olá', 'Teté', 'Tudo', 'Bem']   # uso de: arq.writelines()
@@ -36,17 +36,17 @@
 # """
 
 # # MODO W : Criacao e subscrita:
-# with open('S3/A2-arquivos/src/aula02/arquivo.txt','w') as arq:
+# with open('S3/A2-cnn-leitura-arquivos/src/aula02/arquivo.txt','w') as arq:
 #     arq.write('teste\n')
 
 
 # # MODO A: Iterante/adicionado:
-# with open('S3/A2-arquivos/src/aula02/arquivo.txt', 'a') as arq:
+# with open('S3/A2-cnn-leitura-arquivos/src/aula02/arquivo.txt', 'a') as arq:
 #     arq.write('append\n')
 
 
 # # MODO R: Iterante/adicionado:
-# with open('S3/A2-arquivos/src/aula02/arquivo.txt', 'r') as arq:
+# with open('S3/A2-cnn-leitura-arquivos/src/aula02/arquivo.txt', 'r') as arq:
 #     x = arq.read()
 #     print('Printando read()\t:', x, '\n')
 #     print('Printando type(read())\t:', type(x), '\n')
@@ -56,7 +56,7 @@
 #     print('Printando type(readlines()): ', type(x), '\n')
 
 # # MODO RB: Iterante/adicionado:
-# with open('S3/A2-arquivos/src/aula02/arquivo.txt', 'rb') as arq:
+# with open('S3/A2-cnn-leitura-arquivos/src/aula02/arquivo.txt', 'rb') as arq:
 #     x = arq.read()
 #     print('Printando read()\t:', x, '\n')
 #     print('Printando type(read())\t:', type(x), '\n')

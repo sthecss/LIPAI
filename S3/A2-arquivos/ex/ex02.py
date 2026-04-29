@@ -4,7 +4,7 @@ Exercício 2 - Arquivos:  Carregar dados de projetos
 """
 
 
-with open("S3/A2-arquivos/ex/txt/dados_projetos.txt", "r", encoding="utf-8") as dados_projetos:
+with open("S3/A2-cnn-leitura-arquivos/ex/txt/dados_projetos.txt", "r", encoding="utf-8") as dados_projetos:
     def carregar_dados_projetos(dados_projetos):
         """Retorna uma tupla de dicionários com
         dados de projetos."""

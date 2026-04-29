@@ -4,7 +4,7 @@ Exercício 1 - Arquivos:  Carregar dados de alunos
 """
 
 
-with open("S3/A2-arquivos/ex/txt/dados_alunos.txt", "r", encoding="utf-8") as dados_alunos:
+with open("S3/A2-cnn-leitura-arquivos/ex/txt/dados_alunos.txt", "r", encoding="utf-8") as dados_alunos:
 
     def carregar_dados_alunos(dados_alunos):
         """Retorna uma tupla de dicionários

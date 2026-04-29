@@ -26,7 +26,7 @@ def carregar_dados_arquivos(arquivo):
     return linhas
 
 
-with open("S3/A2-arquivos/ex/txt/dados_dic-gen.txt", "r", encoding="utf-8") as dados_arquivos:
+with open("S3/A2-cnn-leitura-arquivos/ex/txt/dados_dic-gen.txt", "r", encoding="utf-8") as dados_arquivos:
     linhas = carregar_dados_arquivos(dados_arquivos)
 
     for i in range(0, len(linhas), 2):

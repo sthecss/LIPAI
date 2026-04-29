@@ -19,29 +19,29 @@
 
 # # Analide de leitura:
 
-# arquivoR = open("S3/A2-arquivos/src/test01.py", "r")
+# arquivoR = open("S3/A2-cnn-leitura-arquivos/src/test01.py", "r")
 # podeSerLido = arquivoR.readable()  # para saber se pode ser lido ou não
 # print("Arquivo em modo R  : ", podeSerLido)
 # arquivoR.close()
 
-# arquivoA = open("S3/A2-arquivos/src/test01.py", "a")
+# arquivoA = open("S3/A2-cnn-leitura-arquivos/src/test01.py", "a")
 # podeSerLido = arquivoA.readable()  # para saber se pode ser lido ou não
 # print("Arquivo em modo A  : ", podeSerLido)
 # arquivoA.close()
 
-# arquivoW = open("S3/A2-arquivos/src/test01.py", "w")
+# arquivoW = open("S3/A2-cnn-leitura-arquivos/src/test01.py", "w")
 # podeSerLido = arquivoW.readable()  # para saber se pode ser lido ou não
 # print("Arquivo em modo W  : ", podeSerLido)
 # arquivoW.close()
 
-# arquivoRPlus = open("S3/A2-arquivos/src/test01.py", "r+")
+# arquivoRPlus = open("S3/A2-cnn-leitura-arquivos/src/test01.py", "r+")
 # podeSerLido = arquivoRPlus.readable()  # para saber se pode ser lido ou não
 # print("Arquivo em modo R+ : ", podeSerLido)
 # arquivoRPlus.close()
 
 # # -----------------------------------------------
 
-# arquivo = open("S3/A2-arquivos/src/test01.txt", "r")
+# arquivo = open("S3/A2-cnn-leitura-arquivos/src/test01.txt", "r")
 
 # print(arquivo.readable())
 # print(arquivo.read())
@@ -64,7 +64,7 @@
 
 # # -----------------------------------------------
 # # Inserindo textos num arquivo:
-# arquivo = open("S3/A2-arquivos/src/test01.txt", "a")
+# arquivo = open("S3/A2-cnn-leitura-arquivos/src/test01.txt", "a")
 
 # arquivo.write("C\n")
 # arquivo.write("C++\n")
@@ -74,7 +74,7 @@
 
 # # -----------------------------------------------
 # # Subscrevendo texto num arquivo:
-# arquivo = open("S3/A2-arquivos/src/test01.txt", "w")
+# arquivo = open("S3/A2-cnn-leitura-arquivos/src/test01.txt", "w")
 
 # arquivo.write("C\n")
 # arquivo.write("C++\n")
@@ -91,7 +91,7 @@
 # # -----------------------------------------------
 # # Criando com modo w:
 
-# arquivo = open("S3/A2-arquivos/src/test02.txt", "w")
+# arquivo = open("S3/A2-cnn-leitura-arquivos/src/test02.txt", "w")
 
 # arquivo.write("C\n")
 # arquivo.write("C++\n")
@@ -104,7 +104,7 @@
 
 # # Também podemos usar o mod "x" para criar arquivos
 
-# # arquivo = open("S3/A2-arquivos/src/aula01/test03.txt", "x")
+# # arquivo = open("S3/A2-cnn-leitura-arquivos/src/aula01/test03.txt", "x")
 
 # # arquivo.write("Python\n")
 
@@ -130,14 +130,14 @@
 # import os
 
 # # Arquivos:
-# arquivo = open("S3/A2-arquivos/src/aula01/arquivoParaExcluir.txt", "x")
+# arquivo = open("S3/A2-cnn-leitura-arquivos/src/aula01/arquivoParaExcluir.txt", "x")
 # arquivo.write("Python\n")
 # arquivo.close()
 
 # breakpoint()
 
-# if os.path.exists("S3/A2-arquivos/src/aula01/arquivoParaExcluir.txt"):
-#     os.remove("S3/A2-arquivos/src/aula01/arquivoParaExcluir.txt")
+# if os.path.exists("S3/A2-cnn-leitura-arquivos/src/aula01/arquivoParaExcluir.txt"):
+#     os.remove("S3/A2-cnn-leitura-arquivos/src/aula01/arquivoParaExcluir.txt")
 #     print("Removido")
 # else:
 #     print("Arquivo não existe")
@@ -145,8 +145,8 @@
 # # Pasta:
 
 # # Obs: comando os.rmdir só exclui pastas vazias
-# os.makedirs("S3/A2-arquivos/src/aula01/pastaExcluir")
+# os.makedirs("S3/A2-cnn-leitura-arquivos/src/aula01/pastaExcluir")
 
 # breakpoint() # controar vizualização
 
-# os.rmdir("S3/A2-arquivos/src/aula01/pastaExcluir")
+# os.rmdir("S3/A2-cnn-leitura-arquivos/src/aula01/pastaExcluir")
